@@ -1,0 +1,1559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55ECDE411DB8A38D001164E7 /* afc.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE0F1DB8A38D001164E7 /* afc.c */; };
+		55ECDE481DB8A38D001164E7 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE1F1DB8A38D001164E7 /* debug.c */; };
+		55ECDE491DB8A38D001164E7 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE211DB8A38D001164E7 /* socket.c */; };
+		55ECDE4A1DB8A38D001164E7 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE231DB8A38D001164E7 /* thread.c */; };
+		55ECDE4B1DB8A38D001164E7 /* userpref.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE251DB8A38D001164E7 /* userpref.c */; };
+		55ECDE4C1DB8A38D001164E7 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE271DB8A38D001164E7 /* utils.c */; };
+		55ECDE4D1DB8A38D001164E7 /* debugserver.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE291DB8A38D001164E7 /* debugserver.c */; };
+		55ECDE4E1DB8A38D001164E7 /* device_link_service.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE2A1DB8A38D001164E7 /* device_link_service.c */; };
+		55ECDE4F1DB8A38D001164E7 /* diagnostics_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE2C1DB8A38D001164E7 /* diagnostics_relay.c */; };
+		55ECDE501DB8A38D001164E7 /* file_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE2D1DB8A38D001164E7 /* file_relay.c */; };
+		55ECDE511DB8A38D001164E7 /* heartbeat.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE2E1DB8A38D001164E7 /* heartbeat.c */; };
+		55ECDE521DB8A38D001164E7 /* house_arrest.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE2F1DB8A38D001164E7 /* house_arrest.c */; };
+		55ECDE531DB8A38D001164E7 /* idevice.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE301DB8A38D001164E7 /* idevice.c */; };
+		55ECDE541DB8A38D001164E7 /* installation_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE321DB8A38D001164E7 /* installation_proxy.c */; };
+		55ECDE551DB8A38D001164E7 /* lockdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE331DB8A38D001164E7 /* lockdown.c */; };
+		55ECDE561DB8A38D001164E7 /* misagent.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE341DB8A38D001164E7 /* misagent.c */; };
+		55ECDE571DB8A38D001164E7 /* mobile_image_mounter.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE351DB8A38D001164E7 /* mobile_image_mounter.c */; };
+		55ECDE581DB8A38D001164E7 /* mobilebackup.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE361DB8A38D001164E7 /* mobilebackup.c */; };
+		55ECDE5A1DB8A38D001164E7 /* mobilesync.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE381DB8A38D001164E7 /* mobilesync.c */; };
+		55ECDE5B1DB8A38D001164E7 /* notification_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE391DB8A38D001164E7 /* notification_proxy.c */; };
+		55ECDE5C1DB8A38D001164E7 /* property_list_service.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE3A1DB8A38D001164E7 /* property_list_service.c */; };
+		55ECDE5D1DB8A38D001164E7 /* restore.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE3B1DB8A38D001164E7 /* restore.c */; };
+		55ECDE5E1DB8A38D001164E7 /* sbservices.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE3C1DB8A38D001164E7 /* sbservices.c */; };
+		55ECDE5F1DB8A38D001164E7 /* screenshotr.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE3D1DB8A38D001164E7 /* screenshotr.c */; };
+		55ECDE601DB8A38D001164E7 /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE3E1DB8A38D001164E7 /* service.c */; };
+		55ECDE611DB8A38D001164E7 /* syslog_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE3F1DB8A38D001164E7 /* syslog_relay.c */; };
+		55ECDE621DB8A38D001164E7 /* webinspector.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE401DB8A38D001164E7 /* webinspector.c */; };
+		55ECDEBA1DB8A9D0001164E7 /* mobilebackup2.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDEAF1DB8A9D0001164E7 /* mobilebackup2.c */; };
+		55ECDEC61DB8B4C1001164E7 /* idevicename.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE6F1DB8A3FF001164E7 /* idevicename.c */; };
+		55ECDEC71DB8B4C9001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDECD1DB8B7A4001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDED31DB8B7B7001164E7 /* idevice_id.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE641DB8A3FF001164E7 /* idevice_id.c */; };
+		55ECDED81DB8B7E5001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDEDE1DB8B800001164E7 /* ideviceinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE6E1DB8A3FF001164E7 /* ideviceinfo.c */; };
+		55ECDEF01DB8BD91001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDEF61DB8BDA1001164E7 /* idevicedate.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE681DB8A3FF001164E7 /* idevicedate.c */; };
+		55ECDEFB1DB8BF50001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF011DB8BF6E001164E7 /* idevicesyslog.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE741DB8A3FF001164E7 /* idevicesyslog.c */; };
+		55ECDF061DB8BF80001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF0C1DB8BF9C001164E7 /* idevicescreenshot.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE731DB8A3FF001164E7 /* idevicescreenshot.c */; };
+		55ECDF111DB8C188001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF171DB8C19E001164E7 /* idevicepair.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE711DB8A3FF001164E7 /* idevicepair.c */; };
+		55ECDF1C1DB8C1CE001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF221DB8C1E4001164E7 /* idevicedebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE691DB8A3FF001164E7 /* idevicedebug.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55E8B9C11DB646ED006DB13A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDEBD1DB8B4AD001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDECE1DB8B7A4001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDED91DB8B7E5001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDEF11DB8BD91001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDEFC1DB8BF50001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF071DB8BF80001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF121DB8C188001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF1D1DB8C1CE001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55E8B9C31DB646ED006DB13A /* libimobiledevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libimobiledevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDE0F1DB8A38D001164E7 /* afc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = afc.c; path = src/afc.c; sourceTree = "<group>"; };
+		55ECDE1F1DB8A38D001164E7 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		55ECDE201DB8A38D001164E7 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		55ECDE211DB8A38D001164E7 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		55ECDE221DB8A38D001164E7 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		55ECDE231DB8A38D001164E7 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		55ECDE241DB8A38D001164E7 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		55ECDE251DB8A38D001164E7 /* userpref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = userpref.c; sourceTree = "<group>"; };
+		55ECDE261DB8A38D001164E7 /* userpref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userpref.h; sourceTree = "<group>"; };
+		55ECDE271DB8A38D001164E7 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		55ECDE281DB8A38D001164E7 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		55ECDE291DB8A38D001164E7 /* debugserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = debugserver.c; path = src/debugserver.c; sourceTree = "<group>"; };
+		55ECDE2A1DB8A38D001164E7 /* device_link_service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = device_link_service.c; path = src/device_link_service.c; sourceTree = "<group>"; };
+		55ECDE2B1DB8A38D001164E7 /* device_link_service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = device_link_service.h; path = src/device_link_service.h; sourceTree = "<group>"; };
+		55ECDE2C1DB8A38D001164E7 /* diagnostics_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = diagnostics_relay.c; path = src/diagnostics_relay.c; sourceTree = "<group>"; };
+		55ECDE2D1DB8A38D001164E7 /* file_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file_relay.c; path = src/file_relay.c; sourceTree = "<group>"; };
+		55ECDE2E1DB8A38D001164E7 /* heartbeat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = heartbeat.c; path = src/heartbeat.c; sourceTree = "<group>"; };
+		55ECDE2F1DB8A38D001164E7 /* house_arrest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = house_arrest.c; path = src/house_arrest.c; sourceTree = "<group>"; };
+		55ECDE301DB8A38D001164E7 /* idevice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idevice.c; path = src/idevice.c; sourceTree = "<group>"; };
+		55ECDE311DB8A38D001164E7 /* idevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = idevice.h; path = src/idevice.h; sourceTree = "<group>"; };
+		55ECDE321DB8A38D001164E7 /* installation_proxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = installation_proxy.c; path = src/installation_proxy.c; sourceTree = "<group>"; };
+		55ECDE331DB8A38D001164E7 /* lockdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lockdown.c; path = src/lockdown.c; sourceTree = "<group>"; };
+		55ECDE341DB8A38D001164E7 /* misagent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misagent.c; path = src/misagent.c; sourceTree = "<group>"; };
+		55ECDE351DB8A38D001164E7 /* mobile_image_mounter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mobile_image_mounter.c; path = src/mobile_image_mounter.c; sourceTree = "<group>"; };
+		55ECDE361DB8A38D001164E7 /* mobilebackup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mobilebackup.c; path = src/mobilebackup.c; sourceTree = "<group>"; };
+		55ECDE381DB8A38D001164E7 /* mobilesync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mobilesync.c; path = src/mobilesync.c; sourceTree = "<group>"; };
+		55ECDE391DB8A38D001164E7 /* notification_proxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = notification_proxy.c; path = src/notification_proxy.c; sourceTree = "<group>"; };
+		55ECDE3A1DB8A38D001164E7 /* property_list_service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = property_list_service.c; path = src/property_list_service.c; sourceTree = "<group>"; };
+		55ECDE3B1DB8A38D001164E7 /* restore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = restore.c; path = src/restore.c; sourceTree = "<group>"; };
+		55ECDE3C1DB8A38D001164E7 /* sbservices.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sbservices.c; path = src/sbservices.c; sourceTree = "<group>"; };
+		55ECDE3D1DB8A38D001164E7 /* screenshotr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = screenshotr.c; path = src/screenshotr.c; sourceTree = "<group>"; };
+		55ECDE3E1DB8A38D001164E7 /* service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = service.c; path = src/service.c; sourceTree = "<group>"; };
+		55ECDE3F1DB8A38D001164E7 /* syslog_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syslog_relay.c; path = src/syslog_relay.c; sourceTree = "<group>"; };
+		55ECDE401DB8A38D001164E7 /* webinspector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = webinspector.c; path = src/webinspector.c; sourceTree = "<group>"; };
+		55ECDE641DB8A3FF001164E7 /* idevice_id.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevice_id.c; sourceTree = "<group>"; };
+		55ECDE651DB8A3FF001164E7 /* idevicebackup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicebackup.c; sourceTree = "<group>"; };
+		55ECDE661DB8A3FF001164E7 /* idevicebackup2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicebackup2.c; sourceTree = "<group>"; };
+		55ECDE671DB8A3FF001164E7 /* idevicecrashreport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicecrashreport.c; sourceTree = "<group>"; };
+		55ECDE681DB8A3FF001164E7 /* idevicedate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicedate.c; sourceTree = "<group>"; };
+		55ECDE691DB8A3FF001164E7 /* idevicedebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicedebug.c; sourceTree = "<group>"; };
+		55ECDE6A1DB8A3FF001164E7 /* idevicedebugserverproxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicedebugserverproxy.c; sourceTree = "<group>"; };
+		55ECDE6B1DB8A3FF001164E7 /* idevicediagnostics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicediagnostics.c; sourceTree = "<group>"; };
+		55ECDE6C1DB8A3FF001164E7 /* ideviceenterrecovery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ideviceenterrecovery.c; sourceTree = "<group>"; };
+		55ECDE6D1DB8A3FF001164E7 /* ideviceimagemounter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ideviceimagemounter.c; sourceTree = "<group>"; };
+		55ECDE6E1DB8A3FF001164E7 /* ideviceinfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ideviceinfo.c; sourceTree = "<group>"; };
+		55ECDE6F1DB8A3FF001164E7 /* idevicename.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicename.c; sourceTree = "<group>"; };
+		55ECDE701DB8A3FF001164E7 /* idevicenotificationproxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicenotificationproxy.c; sourceTree = "<group>"; };
+		55ECDE711DB8A3FF001164E7 /* idevicepair.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicepair.c; sourceTree = "<group>"; };
+		55ECDE721DB8A3FF001164E7 /* ideviceprovision.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ideviceprovision.c; sourceTree = "<group>"; };
+		55ECDE731DB8A3FF001164E7 /* idevicescreenshot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicescreenshot.c; sourceTree = "<group>"; };
+		55ECDE741DB8A3FF001164E7 /* idevicesyslog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevicesyslog.c; sourceTree = "<group>"; };
+		55ECDEA11DB8A9D0001164E7 /* afc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = afc.h; path = src/afc.h; sourceTree = "<group>"; };
+		55ECDEA31DB8A9D0001164E7 /* debugserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debugserver.h; path = src/debugserver.h; sourceTree = "<group>"; };
+		55ECDEA41DB8A9D0001164E7 /* diagnostics_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diagnostics_relay.h; path = src/diagnostics_relay.h; sourceTree = "<group>"; };
+		55ECDEA61DB8A9D0001164E7 /* file_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = file_relay.h; path = src/file_relay.h; sourceTree = "<group>"; };
+		55ECDEA71DB8A9D0001164E7 /* heartbeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heartbeat.h; path = src/heartbeat.h; sourceTree = "<group>"; };
+		55ECDEA81DB8A9D0001164E7 /* house_arrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = house_arrest.h; path = src/house_arrest.h; sourceTree = "<group>"; };
+		55ECDEA91DB8A9D0001164E7 /* installation_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = installation_proxy.h; path = src/installation_proxy.h; sourceTree = "<group>"; };
+		55ECDEAA1DB8A9D0001164E7 /* libimobiledevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libimobiledevice.h; path = src/libimobiledevice.h; sourceTree = "<group>"; };
+		55ECDEAB1DB8A9D0001164E7 /* lockdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lockdown.h; path = src/lockdown.h; sourceTree = "<group>"; };
+		55ECDEAC1DB8A9D0001164E7 /* misagent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misagent.h; path = src/misagent.h; sourceTree = "<group>"; };
+		55ECDEAD1DB8A9D0001164E7 /* mobile_image_mounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mobile_image_mounter.h; path = src/mobile_image_mounter.h; sourceTree = "<group>"; };
+		55ECDEAE1DB8A9D0001164E7 /* mobilebackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mobilebackup.h; path = src/mobilebackup.h; sourceTree = "<group>"; };
+		55ECDEAF1DB8A9D0001164E7 /* mobilebackup2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mobilebackup2.c; path = src/mobilebackup2.c; sourceTree = "<group>"; };
+		55ECDEB01DB8A9D0001164E7 /* mobilebackup2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mobilebackup2.h; path = src/mobilebackup2.h; sourceTree = "<group>"; };
+		55ECDEB11DB8A9D0001164E7 /* mobilesync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mobilesync.h; path = src/mobilesync.h; sourceTree = "<group>"; };
+		55ECDEB21DB8A9D0001164E7 /* notification_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notification_proxy.h; path = src/notification_proxy.h; sourceTree = "<group>"; };
+		55ECDEB31DB8A9D0001164E7 /* property_list_service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = property_list_service.h; path = src/property_list_service.h; sourceTree = "<group>"; };
+		55ECDEB41DB8A9D0001164E7 /* restore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = restore.h; path = src/restore.h; sourceTree = "<group>"; };
+		55ECDEB51DB8A9D0001164E7 /* sbservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sbservices.h; path = src/sbservices.h; sourceTree = "<group>"; };
+		55ECDEB61DB8A9D0001164E7 /* screenshotr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = screenshotr.h; path = src/screenshotr.h; sourceTree = "<group>"; };
+		55ECDEB71DB8A9D0001164E7 /* service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = service.h; path = src/service.h; sourceTree = "<group>"; };
+		55ECDEB81DB8A9D0001164E7 /* syslog_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = syslog_relay.h; path = src/syslog_relay.h; sourceTree = "<group>"; };
+		55ECDEB91DB8A9D0001164E7 /* webinspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webinspector.h; path = src/webinspector.h; sourceTree = "<group>"; };
+		55ECDEBF1DB8B4AD001164E7 /* idevicename */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicename; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDEC81DB8B72A001164E7 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
+		55ECDED21DB8B7A4001164E7 /* idevice_id */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevice_id; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDEDD1DB8B7E5001164E7 /* ideviceinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDEE91DB8BAED001164E7 /* ideviceinstaller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ideviceinstaller.c; sourceTree = "<group>"; };
+		55ECDEF51DB8BD91001164E7 /* idevicedate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicedate; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF001DB8BF50001164E7 /* idevicesyslog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicesyslog; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF0B1DB8BF80001164E7 /* idevicescreenshot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicescreenshot; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF161DB8C188001164E7 /* idevicepair */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicepair; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF211DB8C1CE001164E7 /* idevicedebug */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicedebug; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E8B9C01DB646ED006DB13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDEBC1DB8B4AD001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDEC71DB8B4C9001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDECC1DB8B7A4001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDECD1DB8B7A4001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDED71DB8B7E5001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDED81DB8B7E5001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDEEF1DB8BD91001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDEF01DB8BD91001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDEFA1DB8BF50001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDEFB1DB8BF50001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF051DB8BF80001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF061DB8BF80001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF101DB8C188001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF111DB8C188001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF1B1DB8C1CE001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF1C1DB8C1CE001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E8B9BA1DB646ED006DB13A = {
+			isa = PBXGroup;
+			children = (
+				55ECDE631DB8A3FF001164E7 /* tools */,
+				55E8B9C51DB646ED006DB13A /* imobiledevice */,
+				55E8B9C41DB646ED006DB13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E8B9C41DB646ED006DB13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E8B9C31DB646ED006DB13A /* libimobiledevice.a */,
+				55ECDEBF1DB8B4AD001164E7 /* idevicename */,
+				55ECDED21DB8B7A4001164E7 /* idevice_id */,
+				55ECDEDD1DB8B7E5001164E7 /* ideviceinfo */,
+				55ECDEF51DB8BD91001164E7 /* idevicedate */,
+				55ECDF001DB8BF50001164E7 /* idevicesyslog */,
+				55ECDF0B1DB8BF80001164E7 /* idevicescreenshot */,
+				55ECDF161DB8C188001164E7 /* idevicepair */,
+				55ECDF211DB8C1CE001164E7 /* idevicedebug */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E8B9C51DB646ED006DB13A /* imobiledevice */ = {
+			isa = PBXGroup;
+			children = (
+				55ECDE101DB8A38D001164E7 /* common */,
+				55ECDEC81DB8B72A001164E7 /* config.h */,
+				55ECDEA11DB8A9D0001164E7 /* afc.h */,
+				55ECDE0F1DB8A38D001164E7 /* afc.c */,
+				55ECDE311DB8A38D001164E7 /* idevice.h */,
+				55ECDE301DB8A38D001164E7 /* idevice.c */,
+				55ECDEB41DB8A9D0001164E7 /* restore.h */,
+				55ECDE3B1DB8A38D001164E7 /* restore.c */,
+				55ECDEB71DB8A9D0001164E7 /* service.h */,
+				55ECDE3E1DB8A38D001164E7 /* service.c */,
+				55ECDEA61DB8A9D0001164E7 /* file_relay.h */,
+				55ECDE2D1DB8A38D001164E7 /* file_relay.c */,
+				55ECDEAB1DB8A9D0001164E7 /* lockdown.h */,
+				55ECDE331DB8A38D001164E7 /* lockdown.c */,
+				55ECDEB61DB8A9D0001164E7 /* screenshotr.h */,
+				55ECDE3D1DB8A38D001164E7 /* screenshotr.c */,
+				55ECDEB51DB8A9D0001164E7 /* sbservices.h */,
+				55ECDE3C1DB8A38D001164E7 /* sbservices.c */,
+				55ECDEA71DB8A9D0001164E7 /* heartbeat.h */,
+				55ECDE2E1DB8A38D001164E7 /* heartbeat.c */,
+				55ECDEAC1DB8A9D0001164E7 /* misagent.h */,
+				55ECDE341DB8A38D001164E7 /* misagent.c */,
+				55ECDEA81DB8A9D0001164E7 /* house_arrest.h */,
+				55ECDE2F1DB8A38D001164E7 /* house_arrest.c */,
+				55ECDEA31DB8A9D0001164E7 /* debugserver.h */,
+				55ECDE291DB8A38D001164E7 /* debugserver.c */,
+				55ECDEAE1DB8A9D0001164E7 /* mobilebackup.h */,
+				55ECDE361DB8A38D001164E7 /* mobilebackup.c */,
+				55ECDEB11DB8A9D0001164E7 /* mobilesync.h */,
+				55ECDE381DB8A38D001164E7 /* mobilesync.c */,
+				55ECDEB81DB8A9D0001164E7 /* syslog_relay.h */,
+				55ECDE3F1DB8A38D001164E7 /* syslog_relay.c */,
+				55ECDEB91DB8A9D0001164E7 /* webinspector.h */,
+				55ECDE401DB8A38D001164E7 /* webinspector.c */,
+				55ECDE2B1DB8A38D001164E7 /* device_link_service.h */,
+				55ECDE2A1DB8A38D001164E7 /* device_link_service.c */,
+				55ECDEB21DB8A9D0001164E7 /* notification_proxy.h */,
+				55ECDE391DB8A38D001164E7 /* notification_proxy.c */,
+				55ECDEA91DB8A9D0001164E7 /* installation_proxy.h */,
+				55ECDE321DB8A38D001164E7 /* installation_proxy.c */,
+				55ECDE2C1DB8A38D001164E7 /* diagnostics_relay.c */,
+				55ECDEB31DB8A9D0001164E7 /* property_list_service.h */,
+				55ECDE3A1DB8A38D001164E7 /* property_list_service.c */,
+				55ECDEAD1DB8A9D0001164E7 /* mobile_image_mounter.h */,
+				55ECDE351DB8A38D001164E7 /* mobile_image_mounter.c */,
+				55ECDEA41DB8A9D0001164E7 /* diagnostics_relay.h */,
+				55ECDEAA1DB8A9D0001164E7 /* libimobiledevice.h */,
+				55ECDEB01DB8A9D0001164E7 /* mobilebackup2.h */,
+				55ECDEAF1DB8A9D0001164E7 /* mobilebackup2.c */,
+			);
+			path = imobiledevice;
+			sourceTree = "<group>";
+		};
+		55ECDE101DB8A38D001164E7 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				55ECDE1F1DB8A38D001164E7 /* debug.c */,
+				55ECDE201DB8A38D001164E7 /* debug.h */,
+				55ECDE211DB8A38D001164E7 /* socket.c */,
+				55ECDE221DB8A38D001164E7 /* socket.h */,
+				55ECDE231DB8A38D001164E7 /* thread.c */,
+				55ECDE241DB8A38D001164E7 /* thread.h */,
+				55ECDE251DB8A38D001164E7 /* userpref.c */,
+				55ECDE261DB8A38D001164E7 /* userpref.h */,
+				55ECDE271DB8A38D001164E7 /* utils.c */,
+				55ECDE281DB8A38D001164E7 /* utils.h */,
+			);
+			name = common;
+			path = src/common;
+			sourceTree = "<group>";
+		};
+		55ECDE631DB8A3FF001164E7 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				55ECDEE91DB8BAED001164E7 /* ideviceinstaller.c */,
+				55ECDE641DB8A3FF001164E7 /* idevice_id.c */,
+				55ECDE651DB8A3FF001164E7 /* idevicebackup.c */,
+				55ECDE661DB8A3FF001164E7 /* idevicebackup2.c */,
+				55ECDE671DB8A3FF001164E7 /* idevicecrashreport.c */,
+				55ECDE681DB8A3FF001164E7 /* idevicedate.c */,
+				55ECDE691DB8A3FF001164E7 /* idevicedebug.c */,
+				55ECDE6A1DB8A3FF001164E7 /* idevicedebugserverproxy.c */,
+				55ECDE6B1DB8A3FF001164E7 /* idevicediagnostics.c */,
+				55ECDE6C1DB8A3FF001164E7 /* ideviceenterrecovery.c */,
+				55ECDE6D1DB8A3FF001164E7 /* ideviceimagemounter.c */,
+				55ECDE6E1DB8A3FF001164E7 /* ideviceinfo.c */,
+				55ECDE6F1DB8A3FF001164E7 /* idevicename.c */,
+				55ECDE701DB8A3FF001164E7 /* idevicenotificationproxy.c */,
+				55ECDE711DB8A3FF001164E7 /* idevicepair.c */,
+				55ECDE721DB8A3FF001164E7 /* ideviceprovision.c */,
+				55ECDE731DB8A3FF001164E7 /* idevicescreenshot.c */,
+				55ECDE741DB8A3FF001164E7 /* idevicesyslog.c */,
+			);
+			name = tools;
+			path = imobiledevice/tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E8B9C21DB646ED006DB13A /* imobiledevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E8B9CC1DB646ED006DB13A /* Build configuration list for PBXNativeTarget "imobiledevice" */;
+			buildPhases = (
+				55E8B9BF1DB646ED006DB13A /* Sources */,
+				55E8B9C01DB646ED006DB13A /* Frameworks */,
+				55E8B9C11DB646ED006DB13A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imobiledevice;
+			productName = imobiledevice;
+			productReference = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55ECDEBE1DB8B4AD001164E7 /* idevicename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDEC31DB8B4AD001164E7 /* Build configuration list for PBXNativeTarget "idevicename" */;
+			buildPhases = (
+				55ECDEBB1DB8B4AD001164E7 /* Sources */,
+				55ECDEBC1DB8B4AD001164E7 /* Frameworks */,
+				55ECDEBD1DB8B4AD001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicename;
+			productName = idevicename;
+			productReference = 55ECDEBF1DB8B4AD001164E7 /* idevicename */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDEC91DB8B7A4001164E7 /* idevice_id */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDECF1DB8B7A4001164E7 /* Build configuration list for PBXNativeTarget "idevice_id" */;
+			buildPhases = (
+				55ECDECA1DB8B7A4001164E7 /* Sources */,
+				55ECDECC1DB8B7A4001164E7 /* Frameworks */,
+				55ECDECE1DB8B7A4001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevice_id;
+			productName = idevicename;
+			productReference = 55ECDED21DB8B7A4001164E7 /* idevice_id */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDED41DB8B7E5001164E7 /* ideviceinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDEDA1DB8B7E5001164E7 /* Build configuration list for PBXNativeTarget "ideviceinfo" */;
+			buildPhases = (
+				55ECDED51DB8B7E5001164E7 /* Sources */,
+				55ECDED71DB8B7E5001164E7 /* Frameworks */,
+				55ECDED91DB8B7E5001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ideviceinfo;
+			productName = idevicename;
+			productReference = 55ECDEDD1DB8B7E5001164E7 /* ideviceinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDEEC1DB8BD91001164E7 /* idevicedate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDEF21DB8BD91001164E7 /* Build configuration list for PBXNativeTarget "idevicedate" */;
+			buildPhases = (
+				55ECDEED1DB8BD91001164E7 /* Sources */,
+				55ECDEEF1DB8BD91001164E7 /* Frameworks */,
+				55ECDEF11DB8BD91001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicedate;
+			productName = idevicename;
+			productReference = 55ECDEF51DB8BD91001164E7 /* idevicedate */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDEF71DB8BF50001164E7 /* idevicesyslog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDEFD1DB8BF50001164E7 /* Build configuration list for PBXNativeTarget "idevicesyslog" */;
+			buildPhases = (
+				55ECDEF81DB8BF50001164E7 /* Sources */,
+				55ECDEFA1DB8BF50001164E7 /* Frameworks */,
+				55ECDEFC1DB8BF50001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicesyslog;
+			productName = idevicename;
+			productReference = 55ECDF001DB8BF50001164E7 /* idevicesyslog */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDF021DB8BF80001164E7 /* idevicescreenshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDF081DB8BF80001164E7 /* Build configuration list for PBXNativeTarget "idevicescreenshot" */;
+			buildPhases = (
+				55ECDF031DB8BF80001164E7 /* Sources */,
+				55ECDF051DB8BF80001164E7 /* Frameworks */,
+				55ECDF071DB8BF80001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicescreenshot;
+			productName = idevicename;
+			productReference = 55ECDF0B1DB8BF80001164E7 /* idevicescreenshot */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDF0D1DB8C188001164E7 /* idevicepair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDF131DB8C188001164E7 /* Build configuration list for PBXNativeTarget "idevicepair" */;
+			buildPhases = (
+				55ECDF0E1DB8C188001164E7 /* Sources */,
+				55ECDF101DB8C188001164E7 /* Frameworks */,
+				55ECDF121DB8C188001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicepair;
+			productName = idevicename;
+			productReference = 55ECDF161DB8C188001164E7 /* idevicepair */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDF181DB8C1CE001164E7 /* idevicedebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDF1E1DB8C1CE001164E7 /* Build configuration list for PBXNativeTarget "idevicedebug" */;
+			buildPhases = (
+				55ECDF191DB8C1CE001164E7 /* Sources */,
+				55ECDF1B1DB8C1CE001164E7 /* Frameworks */,
+				55ECDF1D1DB8C1CE001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicedebug;
+			productName = idevicename;
+			productReference = 55ECDF211DB8C1CE001164E7 /* idevicedebug */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E8B9BB1DB646ED006DB13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = tencent;
+				TargetAttributes = {
+					55E8B9C21DB646ED006DB13A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XKMGNG3AWZ;
+						ProvisioningStyle = Automatic;
+					};
+					55ECDEBE1DB8B4AD001164E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XKMGNG3AWZ;
+						ProvisioningStyle = Automatic;
+					};
+					55ECDEC91DB8B7A4001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDED41DB8B7E5001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDEEC1DB8BD91001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDEF71DB8BF50001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDF021DB8BF80001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDF0D1DB8C188001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDF181DB8C1CE001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+				};
+			};
+			buildConfigurationList = 55E8B9BE1DB646ED006DB13A /* Build configuration list for PBXProject "libimobiledevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55E8B9BA1DB646ED006DB13A;
+			productRefGroup = 55E8B9C41DB646ED006DB13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E8B9C21DB646ED006DB13A /* imobiledevice */,
+				55ECDEBE1DB8B4AD001164E7 /* idevicename */,
+				55ECDEC91DB8B7A4001164E7 /* idevice_id */,
+				55ECDED41DB8B7E5001164E7 /* ideviceinfo */,
+				55ECDEEC1DB8BD91001164E7 /* idevicedate */,
+				55ECDEF71DB8BF50001164E7 /* idevicesyslog */,
+				55ECDF021DB8BF80001164E7 /* idevicescreenshot */,
+				55ECDF0D1DB8C188001164E7 /* idevicepair */,
+				55ECDF181DB8C1CE001164E7 /* idevicedebug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E8B9BF1DB646ED006DB13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDE611DB8A38D001164E7 /* syslog_relay.c in Sources */,
+				55ECDE5B1DB8A38D001164E7 /* notification_proxy.c in Sources */,
+				55ECDE4B1DB8A38D001164E7 /* userpref.c in Sources */,
+				55ECDE621DB8A38D001164E7 /* webinspector.c in Sources */,
+				55ECDEBA1DB8A9D0001164E7 /* mobilebackup2.c in Sources */,
+				55ECDE411DB8A38D001164E7 /* afc.c in Sources */,
+				55ECDE541DB8A38D001164E7 /* installation_proxy.c in Sources */,
+				55ECDE5D1DB8A38D001164E7 /* restore.c in Sources */,
+				55ECDE5E1DB8A38D001164E7 /* sbservices.c in Sources */,
+				55ECDE561DB8A38D001164E7 /* misagent.c in Sources */,
+				55ECDE551DB8A38D001164E7 /* lockdown.c in Sources */,
+				55ECDE5A1DB8A38D001164E7 /* mobilesync.c in Sources */,
+				55ECDE4A1DB8A38D001164E7 /* thread.c in Sources */,
+				55ECDE4E1DB8A38D001164E7 /* device_link_service.c in Sources */,
+				55ECDE4D1DB8A38D001164E7 /* debugserver.c in Sources */,
+				55ECDE4C1DB8A38D001164E7 /* utils.c in Sources */,
+				55ECDE4F1DB8A38D001164E7 /* diagnostics_relay.c in Sources */,
+				55ECDE5F1DB8A38D001164E7 /* screenshotr.c in Sources */,
+				55ECDE531DB8A38D001164E7 /* idevice.c in Sources */,
+				55ECDE601DB8A38D001164E7 /* service.c in Sources */,
+				55ECDE501DB8A38D001164E7 /* file_relay.c in Sources */,
+				55ECDE511DB8A38D001164E7 /* heartbeat.c in Sources */,
+				55ECDE481DB8A38D001164E7 /* debug.c in Sources */,
+				55ECDE571DB8A38D001164E7 /* mobile_image_mounter.c in Sources */,
+				55ECDE491DB8A38D001164E7 /* socket.c in Sources */,
+				55ECDE521DB8A38D001164E7 /* house_arrest.c in Sources */,
+				55ECDE5C1DB8A38D001164E7 /* property_list_service.c in Sources */,
+				55ECDE581DB8A38D001164E7 /* mobilebackup.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDEBB1DB8B4AD001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDEC61DB8B4C1001164E7 /* idevicename.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDECA1DB8B7A4001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDED31DB8B7B7001164E7 /* idevice_id.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDED51DB8B7E5001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDEDE1DB8B800001164E7 /* ideviceinfo.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDEED1DB8BD91001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDEF61DB8BDA1001164E7 /* idevicedate.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDEF81DB8BF50001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF011DB8BF6E001164E7 /* idevicesyslog.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF031DB8BF80001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF0C1DB8BF9C001164E7 /* idevicescreenshot.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF0E1DB8C188001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF171DB8C19E001164E7 /* idevicepair.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF191DB8C1CE001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF221DB8C1E4001164E7 /* idevicedebug.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55E8B9CA1DB646ED006DB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55E8B9CB1DB646ED006DB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E8B9CD1DB646ED006DB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		55E8B9CE1DB646ED006DB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		55ECDEC41DB8B4AD001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDEC51DB8B4AD001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDED01DB8B7A4001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDED11DB8B7A4001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDEDB1DB8B7E5001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDEDC1DB8B7E5001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDEF31DB8BD91001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDEF41DB8BD91001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDEFE1DB8BF50001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDEFF1DB8BF50001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDF091DB8BF80001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDF0A1DB8BF80001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDF141DB8C188001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDF151DB8C188001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDF1F1DB8C1CE001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDF201DB8C1CE001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E8B9BE1DB646ED006DB13A /* Build configuration list for PBXProject "libimobiledevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8B9CA1DB646ED006DB13A /* Debug */,
+				55E8B9CB1DB646ED006DB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E8B9CC1DB646ED006DB13A /* Build configuration list for PBXNativeTarget "imobiledevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E8B9CD1DB646ED006DB13A /* Debug */,
+				55E8B9CE1DB646ED006DB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDEC31DB8B4AD001164E7 /* Build configuration list for PBXNativeTarget "idevicename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDEC41DB8B4AD001164E7 /* Debug */,
+				55ECDEC51DB8B4AD001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55ECDECF1DB8B7A4001164E7 /* Build configuration list for PBXNativeTarget "idevice_id" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDED01DB8B7A4001164E7 /* Debug */,
+				55ECDED11DB8B7A4001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDEDA1DB8B7E5001164E7 /* Build configuration list for PBXNativeTarget "ideviceinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDEDB1DB8B7E5001164E7 /* Debug */,
+				55ECDEDC1DB8B7E5001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDEF21DB8BD91001164E7 /* Build configuration list for PBXNativeTarget "idevicedate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDEF31DB8BD91001164E7 /* Debug */,
+				55ECDEF41DB8BD91001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDEFD1DB8BF50001164E7 /* Build configuration list for PBXNativeTarget "idevicesyslog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDEFE1DB8BF50001164E7 /* Debug */,
+				55ECDEFF1DB8BF50001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDF081DB8BF80001164E7 /* Build configuration list for PBXNativeTarget "idevicescreenshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDF091DB8BF80001164E7 /* Debug */,
+				55ECDF0A1DB8BF80001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDF131DB8C188001164E7 /* Build configuration list for PBXNativeTarget "idevicepair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDF141DB8C188001164E7 /* Debug */,
+				55ECDF151DB8C188001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDF1E1DB8C1CE001164E7 /* Build configuration list for PBXNativeTarget "idevicedebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDF1F1DB8C1CE001164E7 /* Debug */,
+				55ECDF201DB8C1CE001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E8B9BB1DB646ED006DB13A /* Project object */;
+}
