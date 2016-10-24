@@ -644,6 +644,7 @@ static void afc_upload_dir(afc_client_t afc, const char* path, const char* afcpa
 
 int main(int argc, char **argv)
 {
+    idevice_set_debug_level(1);
 	idevice_t phone = NULL;
 	lockdownd_client_t client = NULL;
 	instproxy_client_t ipc = NULL;
@@ -907,7 +908,7 @@ run_again:
 					dstpath = NULL;
 
 					zip_uint64_t zfsize = 0;
-					while (zfsize < zs.size) {
+					while (zfsize < (zip_uint64_t)zs.size) {
 						zip_int64_t amount = zip_fread(zfile, buf, sizeof(buf));
 						if (amount == 0) {
 							break;
@@ -917,7 +918,7 @@ run_again:
 							uint32_t written, total = 0;
 							while (total < amount) {
 								written = 0;
-								if (afc_file_write(afc, af, buf, amount, &written) !=
+								if (afc_file_write(afc, af, buf, (uint32_t)amount, &written) !=
 									AFC_E_SUCCESS) {
 									fprintf(stderr, "AFC Write error!\n");
 									break;
@@ -925,7 +926,7 @@ run_again:
 								total += written;
 							}
 							if (total != amount) {
-								fprintf(stderr, "Error: wrote only %d of %" PRIi64 "\n", total, amount);
+								fprintf(stderr, "Error: wrote only %d of %zd" PRIi64 "\n", total, amount);
 								afc_file_close(afc, af);
 								zip_fclose(zfile);
 								free(dstpath);

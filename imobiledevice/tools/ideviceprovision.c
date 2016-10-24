@@ -37,7 +37,7 @@
 #include "libimobiledevice.h"
 #include "lockdown.h"
 #include <libimobiledevice/misagent.h>
-#include "common/utils.h"
+#include "utils.h"
 
 static void print_usage(int argc, char **argv)
 {

@@ -51,6 +51,18 @@
 		55ECDF171DB8C19E001164E7 /* idevicepair.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE711DB8A3FF001164E7 /* idevicepair.c */; };
 		55ECDF1C1DB8C1CE001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
 		55ECDF221DB8C1E4001164E7 /* idevicedebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE691DB8A3FF001164E7 /* idevicedebug.c */; };
+		55ECDF271DB8C869001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF2D1DB8C88B001164E7 /* ideviceprovision.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE721DB8A3FF001164E7 /* ideviceprovision.c */; };
+		55ECDF321DB8CA0B001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF381DB8CA1A001164E7 /* ideviceinstaller.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDEE91DB8BAED001164E7 /* ideviceinstaller.c */; };
+		55ECDF881DBDB5B5001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF8E1DBDB5D5001164E7 /* idevicenotificationproxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE701DB8A3FF001164E7 /* idevicenotificationproxy.c */; };
+		55ECDF931DBDB62C001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDF991DBDB642001164E7 /* ideviceimagemounter.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE6D1DB8A3FF001164E7 /* ideviceimagemounter.c */; };
+		55ECDF9E1DBDB66D001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDFA41DBDB67E001164E7 /* ideviceenterrecovery.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE6C1DB8A3FF001164E7 /* ideviceenterrecovery.c */; };
+		55ECDFA91DBDB6A9001164E7 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E8B9C31DB646ED006DB13A /* libimobiledevice.a */; };
+		55ECDFAF1DBDB6BD001164E7 /* idevicediagnostics.c in Sources */ = {isa = PBXBuildFile; fileRef = 55ECDE6B1DB8A3FF001164E7 /* idevicediagnostics.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,6 +139,60 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		55ECDF1D1DB8C1CE001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF281DB8C869001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF331DB8CA0B001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF891DBDB5B5001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF941DBDB62C001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDF9F1DBDB66D001164E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		55ECDFAA1DBDB6A9001164E7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -223,6 +289,12 @@
 		55ECDF0B1DB8BF80001164E7 /* idevicescreenshot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicescreenshot; sourceTree = BUILT_PRODUCTS_DIR; };
 		55ECDF161DB8C188001164E7 /* idevicepair */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicepair; sourceTree = BUILT_PRODUCTS_DIR; };
 		55ECDF211DB8C1CE001164E7 /* idevicedebug */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicedebug; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF2C1DB8C869001164E7 /* ideviceprovision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceprovision; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF371DB8CA0B001164E7 /* ideviceinstaller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceinstaller; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF8D1DBDB5B5001164E7 /* idevicenotificationproxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicenotificationproxy; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDF981DBDB62C001164E7 /* ideviceimagemounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceimagemounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDFA31DBDB66D001164E7 /* ideviceenterrecovery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceenterrecovery; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECDFAE1DBDB6A9001164E7 /* idevicediagnostics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicediagnostics; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +369,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55ECDF261DB8C869001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF271DB8C869001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF311DB8CA0B001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF321DB8CA0B001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF871DBDB5B5001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF881DBDB5B5001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF921DBDB62C001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF931DBDB62C001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF9D1DBDB66D001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF9E1DBDB66D001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDFA81DBDB6A9001164E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDFA91DBDB6A9001164E7 /* libimobiledevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -321,6 +441,12 @@
 				55ECDF0B1DB8BF80001164E7 /* idevicescreenshot */,
 				55ECDF161DB8C188001164E7 /* idevicepair */,
 				55ECDF211DB8C1CE001164E7 /* idevicedebug */,
+				55ECDF2C1DB8C869001164E7 /* ideviceprovision */,
+				55ECDF371DB8CA0B001164E7 /* ideviceinstaller */,
+				55ECDF8D1DBDB5B5001164E7 /* idevicenotificationproxy */,
+				55ECDF981DBDB62C001164E7 /* ideviceimagemounter */,
+				55ECDFA31DBDB66D001164E7 /* ideviceenterrecovery */,
+				55ECDFAE1DBDB6A9001164E7 /* idevicediagnostics */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -581,6 +707,108 @@
 			productReference = 55ECDF211DB8C1CE001164E7 /* idevicedebug */;
 			productType = "com.apple.product-type.tool";
 		};
+		55ECDF231DB8C869001164E7 /* ideviceprovision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDF291DB8C869001164E7 /* Build configuration list for PBXNativeTarget "ideviceprovision" */;
+			buildPhases = (
+				55ECDF241DB8C869001164E7 /* Sources */,
+				55ECDF261DB8C869001164E7 /* Frameworks */,
+				55ECDF281DB8C869001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ideviceprovision;
+			productName = idevicename;
+			productReference = 55ECDF2C1DB8C869001164E7 /* ideviceprovision */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDF2E1DB8CA0B001164E7 /* ideviceinstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDF341DB8CA0B001164E7 /* Build configuration list for PBXNativeTarget "ideviceinstaller" */;
+			buildPhases = (
+				55ECDF2F1DB8CA0B001164E7 /* Sources */,
+				55ECDF311DB8CA0B001164E7 /* Frameworks */,
+				55ECDF331DB8CA0B001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ideviceinstaller;
+			productName = idevicename;
+			productReference = 55ECDF371DB8CA0B001164E7 /* ideviceinstaller */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDF841DBDB5B5001164E7 /* idevicenotificationproxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDF8A1DBDB5B5001164E7 /* Build configuration list for PBXNativeTarget "idevicenotificationproxy" */;
+			buildPhases = (
+				55ECDF851DBDB5B5001164E7 /* Sources */,
+				55ECDF871DBDB5B5001164E7 /* Frameworks */,
+				55ECDF891DBDB5B5001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicenotificationproxy;
+			productName = idevicename;
+			productReference = 55ECDF8D1DBDB5B5001164E7 /* idevicenotificationproxy */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDF8F1DBDB62C001164E7 /* ideviceimagemounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDF951DBDB62C001164E7 /* Build configuration list for PBXNativeTarget "ideviceimagemounter" */;
+			buildPhases = (
+				55ECDF901DBDB62C001164E7 /* Sources */,
+				55ECDF921DBDB62C001164E7 /* Frameworks */,
+				55ECDF941DBDB62C001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ideviceimagemounter;
+			productName = idevicename;
+			productReference = 55ECDF981DBDB62C001164E7 /* ideviceimagemounter */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDF9A1DBDB66D001164E7 /* ideviceenterrecovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDFA01DBDB66D001164E7 /* Build configuration list for PBXNativeTarget "ideviceenterrecovery" */;
+			buildPhases = (
+				55ECDF9B1DBDB66D001164E7 /* Sources */,
+				55ECDF9D1DBDB66D001164E7 /* Frameworks */,
+				55ECDF9F1DBDB66D001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ideviceenterrecovery;
+			productName = idevicename;
+			productReference = 55ECDFA31DBDB66D001164E7 /* ideviceenterrecovery */;
+			productType = "com.apple.product-type.tool";
+		};
+		55ECDFA51DBDB6A9001164E7 /* idevicediagnostics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECDFAB1DBDB6A9001164E7 /* Build configuration list for PBXNativeTarget "idevicediagnostics" */;
+			buildPhases = (
+				55ECDFA61DBDB6A9001164E7 /* Sources */,
+				55ECDFA81DBDB6A9001164E7 /* Frameworks */,
+				55ECDFAA1DBDB6A9001164E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = idevicediagnostics;
+			productName = idevicename;
+			productReference = 55ECDFAE1DBDB6A9001164E7 /* idevicediagnostics */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -621,6 +849,24 @@
 					55ECDF181DB8C1CE001164E7 = {
 						DevelopmentTeam = XKMGNG3AWZ;
 					};
+					55ECDF231DB8C869001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDF2E1DB8CA0B001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDF841DBDB5B5001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDF8F1DBDB62C001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDF9A1DBDB66D001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
+					55ECDFA51DBDB6A9001164E7 = {
+						DevelopmentTeam = XKMGNG3AWZ;
+					};
 				};
 			};
 			buildConfigurationList = 55E8B9BE1DB646ED006DB13A /* Build configuration list for PBXProject "libimobiledevice" */;
@@ -644,6 +890,12 @@
 				55ECDF021DB8BF80001164E7 /* idevicescreenshot */,
 				55ECDF0D1DB8C188001164E7 /* idevicepair */,
 				55ECDF181DB8C1CE001164E7 /* idevicedebug */,
+				55ECDF231DB8C869001164E7 /* ideviceprovision */,
+				55ECDF2E1DB8CA0B001164E7 /* ideviceinstaller */,
+				55ECDF841DBDB5B5001164E7 /* idevicenotificationproxy */,
+				55ECDF8F1DBDB62C001164E7 /* ideviceimagemounter */,
+				55ECDF9A1DBDB66D001164E7 /* ideviceenterrecovery */,
+				55ECDFA51DBDB6A9001164E7 /* idevicediagnostics */,
 			);
 		};
 /* End PBXProject section */
@@ -745,6 +997,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				55ECDF221DB8C1E4001164E7 /* idevicedebug.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF241DB8C869001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF2D1DB8C88B001164E7 /* ideviceprovision.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF2F1DB8CA0B001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF381DB8CA1A001164E7 /* ideviceinstaller.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF851DBDB5B5001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF8E1DBDB5D5001164E7 /* idevicenotificationproxy.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF901DBDB62C001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDF991DBDB642001164E7 /* ideviceimagemounter.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDF9B1DBDB66D001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDFA41DBDB67E001164E7 /* ideviceenterrecovery.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ECDFA61DBDB6A9001164E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECDFAF1DBDB6BD001164E7 /* idevicediagnostics.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1461,6 +1761,432 @@
 			};
 			name = Release;
 		};
+		55ECDF2A1DB8C869001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDF2B1DB8C869001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDF351DB8CA0B001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+					/usr/local/opt/libzip/include,
+					/usr/local/opt/libzip/lib/libzip/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+					"-lzip",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDF361DB8CA0B001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+					/usr/local/opt/libzip/include,
+					/usr/local/opt/libzip/lib/libzip/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+					"-lzip",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDF8B1DBDB5B5001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDF8C1DBDB5B5001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDF961DBDB62C001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDF971DBDB62C001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDFA11DBDB66D001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDFA21DBDB66D001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECDFAC1DBDB6A9001164E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECDFAD1DBDB6A9001164E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = XKMGNG3AWZ;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+					/usr/local/opt/libxml2/include,
+					/usr/local/opt/usbmuxd/include,
+					"$(SRCROOT)/imobiledevice/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/opt/openssl/lib,
+					/usr/local/lib,
+					"$(inherited)",
+					/usr/local/opt/usbmuxd/lib,
+					/usr/local/opt/libxml2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-lplist",
+					"-lssl",
+					"-lxml2",
+					"-lcrypto",
+					"-lusbmuxd",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1489,6 +2215,7 @@
 				55ECDEC51DB8B4AD001164E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55ECDECF1DB8B7A4001164E7 /* Build configuration list for PBXNativeTarget "idevice_id" */ = {
 			isa = XCConfigurationList;
@@ -1549,6 +2276,60 @@
 			buildConfigurations = (
 				55ECDF1F1DB8C1CE001164E7 /* Debug */,
 				55ECDF201DB8C1CE001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDF291DB8C869001164E7 /* Build configuration list for PBXNativeTarget "ideviceprovision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDF2A1DB8C869001164E7 /* Debug */,
+				55ECDF2B1DB8C869001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDF341DB8CA0B001164E7 /* Build configuration list for PBXNativeTarget "ideviceinstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDF351DB8CA0B001164E7 /* Debug */,
+				55ECDF361DB8CA0B001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDF8A1DBDB5B5001164E7 /* Build configuration list for PBXNativeTarget "idevicenotificationproxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDF8B1DBDB5B5001164E7 /* Debug */,
+				55ECDF8C1DBDB5B5001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDF951DBDB62C001164E7 /* Build configuration list for PBXNativeTarget "ideviceimagemounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDF961DBDB62C001164E7 /* Debug */,
+				55ECDF971DBDB62C001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDFA01DBDB66D001164E7 /* Build configuration list for PBXNativeTarget "ideviceenterrecovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDFA11DBDB66D001164E7 /* Debug */,
+				55ECDFA21DBDB66D001164E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECDFAB1DBDB6A9001164E7 /* Build configuration list for PBXNativeTarget "idevicediagnostics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECDFAC1DBDB6A9001164E7 /* Debug */,
+				55ECDFAD1DBDB6A9001164E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

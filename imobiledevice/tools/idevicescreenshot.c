@@ -32,6 +32,7 @@
 #include "libimobiledevice.h"
 #include "lockdown.h"
 #include <libimobiledevice/screenshotr.h>
+#include "debug.h"
 
 void print_usage(int argc, char **argv);
 

@@ -1290,7 +1290,7 @@ static lockdownd_error_t lockdownd_do_start_service(lockdownd_client_t client, c
 	ret = lockdownd_build_start_service_request(client, identifier, send_escrow_bag, &dict);
 	if (LOCKDOWN_E_SUCCESS != ret)
 		return ret;
-
+    
 	/* send to device */
 	ret = lockdownd_send(client, dict);
 	plist_free(dict);

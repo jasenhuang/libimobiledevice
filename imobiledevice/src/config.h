@@ -95,7 +95,7 @@
 #define STDC_HEADERS 1
 
 /* Strip debug reporting code */
-#define STRIP_DEBUG_CODE 1
+//#define STRIP_DEBUG_CODE 1
 
 /* Version number of package */
 #define VERSION "1.2.1"

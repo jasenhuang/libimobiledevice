@@ -41,7 +41,7 @@
 #include <libimobiledevice/notification_proxy.h>
 #include <libimobiledevice/mobile_image_mounter.h>
 #include <asprintf.h>
-#include "common/utils.h"
+#include "utils.h"
 
 static int list_mode = 0;
 static int xml_mode = 0;
